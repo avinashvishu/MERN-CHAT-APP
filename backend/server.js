@@ -26,7 +26,7 @@ app.use(errorHandler);
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "*",
+    origin: "https://mern-chat-app-hbbb.onrender.com",
     methods: ["GET", "POST", "PUT"],
   },
 });
