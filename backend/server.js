@@ -29,7 +29,7 @@ const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
     origin:
-      "https://663279a211ff0b17f1d19fe7--stirring-churros-1fc121.netlify.app/",
+      "https://663279a211ff0b17f1d19fe7--stirring-churros-1fc121.netlify.app",
     methods: ["GET", "POST", "PUT"],
   },
 });
